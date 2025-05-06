@@ -1,0 +1,94 @@
+{
+  "tests": [
+    {
+      "name": "Test Exercise 1: calculate_total_cost with default tax",
+      "setup": "",
+      "run": "pytest -v test_submission.py::test_calculate_total_cost_default_tax",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Test Exercise 1: calculate_total_cost with custom tax",
+      "setup": "",
+      "run": "pytest -v test_submission.py::test_calculate_total_cost_custom_tax",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Test Exercise 2: celsius_to_fahrenheit freezing",
+      "setup": "",
+      "run": "pytest -v test_submission.py::test_celsius_to_fahrenheit_freezing",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1.5
+    },
+    {
+      "name": "Test Exercise 2: celsius_to_fahrenheit boiling",
+      "setup": "",
+      "run": "pytest -v test_submission.py::test_celsius_to_fahrenheit_boiling",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1.5
+    },
+    {
+      "name": "Test Exercise 3: Student initialization",
+      "setup": "",
+      "run": "pytest -v test_submission.py::test_student_class_initialization",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Test Exercise 3: Student add_grade",
+      "setup": "",
+      "run": "pytest -v test_submission.py::test_student_add_grade",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Test Exercise 3: Student get_average",
+      "setup": "",
+      "run": "pytest -v test_submission.py::test_student_get_average",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Test Exercise 3: Student is_passing (fail case)",
+      "setup": "",
+      "run": "pytest -v test_submission.py::test_student_is_passing_fail",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Test Exercise 3: Student is_passing (pass case)",
+      "setup": "",
+      "run": "pytest -v test_submission.py::test_student_is_passing_pass",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
